@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>e384ec1d-c69e-4800-85d4-7dd73062e2f8</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{231aef30-b718-401f-8c0d-0304d50ff5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル">
+      <UniqueIdentifier>{559d1584-6321-43b2-b072-43de52014936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Player">
+      <UniqueIdentifier>{b426ee32-445f-41f9-9673-572407741c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Enemy">
+      <UniqueIdentifier>{f39fe0fb-1d05-400c-bb52-b979a2435cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Game">
+      <UniqueIdentifier>{dd62c95b-b7b4-4e7a-a21e-6578ba0f1a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Enemy">
+      <UniqueIdentifier>{efeccfd0-ec74-427b-9a63-c6e0e53952a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Player">
+      <UniqueIdentifier>{cb15cdb3-9c74-4799-9daa-9e1d1eb7cb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game">
+      <UniqueIdentifier>{e385b84d-35d0-4a1a-9539-37141453dcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\PlayerModel">
+      <UniqueIdentifier>{13d4f0c9-faef-436b-a517-aef14417f426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\EnemyModel">
+      <UniqueIdentifier>{b8085af0-0f69-4861-8863-0e34894fc633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionNode.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LandShape.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LandShapeData.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelEffect.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj3d.h">
+      <Filter>ヘッダファイル\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionNode.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソースファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LandShape.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LandShapeData.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelEffect.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj3d.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソースファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\DirectXモデル\PlayerModel\Body.FBX">
+      <Filter>Assets\PlayerModel</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\DirectXモデル\PlayerModel\Head.FBX">
+      <Filter>Assets\PlayerModel</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\DirectXモデル\PlayerModel\Launcher.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\DirectXモデル\EnemyModel\E_Body.FBX">
+      <Filter>Assets\EnemyModel</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\DirectXモデル\EnemyModel\E_Head.FBX">
+      <Filter>Assets\EnemyModel</Filter>
+    </None>
+    <None Include="Assets\effect.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\ground200m.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\skydorm.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\SphereNode.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Body.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Head.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Legs.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Neck.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Wings.FBX">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
